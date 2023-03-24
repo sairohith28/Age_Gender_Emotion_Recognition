@@ -6,7 +6,7 @@ import numpy as np
 from keras.models import Model
 from keras.layers import Input, Activation, add, Dense, Flatten, Dropout
 from keras.layers.convolutional import Conv2D, AveragePooling2D
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers import BatchNormalization
 from keras.regularizers import l2
 from keras import backend as K
 
